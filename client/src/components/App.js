@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
 
-const WALLET_INTERVAL_MS = 1000;
+const WALLET_INTERVAL_MS = 10000;
 
 class App extends Component {
     state = {
